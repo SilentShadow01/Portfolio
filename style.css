@@ -1,0 +1,129 @@
+html {
+    scroll-behavior: smooth;
+  }
+
+  #navbarbg {
+    background-color: black;
+  }
+  body {
+    background-color: black;
+    color: #F5EFE7;
+  }
+  #home{
+    background-image: url(Asset/Images/BackgroundS.png);
+    background-size: cover;
+    background-repeat: no-repeat; 
+    background-position: center;
+  }
+  #about, #projects{
+    background-color: #F1F1F1;    
+  }
+  .navbar-brand {
+    margin-left: 20px;
+  }
+  .nav-link {
+    font-family: 'OPTICopperplate';
+    font-weight: 600; 
+    color: #F5EFE7;
+    margin-right: 20px;
+  }
+
+  .nav-link:hover{
+    color: #F7931E;
+  }
+  .nav-link.active {
+    color: #F7931E !important;
+  }
+  #name-intro, #USP {
+    font-family: 'Sackers Gothic';
+    color: #F5EFE7;
+  }
+  #USP{
+    font-size: 45px;
+    color: #FDB827;
+  }
+  html {
+    scroll-behavior: smooth;
+  }
+  section {
+    padding-top: 150px;
+  }
+  *{
+    font-family: 'Sackers Gothic';
+  }
+  #intro1{
+    font-size: 90px;
+  }
+  .aboutMe{
+    font-size: 22px;
+  }
+  .project-img{
+    height: 260px;
+  }
+  .d-inline-flex {
+    list-style: none;
+  }
+  .contact-icon{
+    color: #F1F1F1;
+    font-size: 70px;
+  }
+  @media screen and (max-width: 767px) {
+    #logo-img{
+      width: 60%;
+    }
+    section{
+      padding-top: 0;
+    }
+    .d-flex.justify-content-center.img-fluid{
+      height: 50% !important;
+    }
+    #USP{
+      font-size: 22px;
+    }
+    ul.navbar-nav.ms-auto{
+      text-align: center !important;
+    }
+    .contact-icon{
+      font-size: 40px;
+    }
+    ul.d-inline-flex {
+        padding-left: 0 !important;
+    }
+    .about-page{
+      margin-top: 90px;
+      text-align: start;
+      margin-right: 0;
+      margin-left: 5px !important;
+    }
+    .intro-1, .intro-2, .intro-3, .intro-4{
+      text-align: justify;
+      margin-left: 4px !important;
+      margin-right: 0px !important;
+    }
+    .intro-2{
+      margin-top: 30px !important;
+    }
+    .project-text{
+      padding-top: 100px !important;
+      padding-bottom: 30px !important;
+    }
+    .project-img{
+      height: 50px !important;
+      margin-left: 4px !important;
+      margin-right: 4px !important;
+    }
+    img.img-fluid.rounded-top.rounded-bottom.project-img {
+      height: 100% !important;
+    }
+    h5.text-light.fw-semibold {
+      font-size: 20px;
+    }
+    h4.text-light.font-me.fw-semibold {
+      font-size: 20px;
+    }
+    h3.fw-bold {
+      font-size: 26px;
+      text-align: center;
+      margin-bottom: 0 !important;
+    }
+  }
